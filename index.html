@@ -1,0 +1,90 @@
+<html>
+	<title>Facebook Home Page</title>
+	<head>
+    <link type="text/css" rel="stylesheet" href="css/header.css" />
+    <link type="text/css" rel="stylesheet" href="css/main.css" />
+    <link type="text/css" rel="stylesheet" href="css/footer.css" />
+    <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
+    <script type="text/javascript" src="index.js" ></script>
+	</head>
+  <body>
+		<div class="home-header">
+			<div id="fbIcon" class="home-header">
+        <img id="fblogoImg" src="images/facebook-icon.svg" data-toggleVal1="images/facebook-icon.svg" data-toggleVal2="images/nameIcon.png" onclick="toggleElementAttribute(this, 'src')" />
+      </div>
+			<form id="login" class="home-header">
+        <div id="loginId" class="home-header">
+        <p>Email or Phone</p>
+			  <input type="mail" name="loginIdInput" />
+        </div>
+			  <div id="loginPassword" class="home-header">
+        <p>Password</p>
+			  <input type="password" name="loginPasswordInput" />
+        <p id="loginForgotPassword" class="home-header">Forgot password?</p>
+        </div>
+        <div id="loginSubmit" class="home-header">
+        <input type="submit" value="Log In" />
+  			</div>
+			</form>
+		</div>
+		<div class="home-main">
+      <div id="main-panel1" class="main-panel1-class">
+			      <p id="main-panel1-heading" class="main-panel1-class">
+              Connect with friends and the world around you on Facebook
+            </p><br>
+            <div class="main-panel1-text">
+              <p>
+              <img src="images/seephotos.png" class="main-panel1-img" />
+              See photos and updates
+              <div class="home-main-panel1-text-faint">from friends in news feed</div>
+              </p>
+              <p>
+              <img src="images/sharenew.png" class="main-panel1-img" />
+              Share what's new
+              <div class="home-main-panel1-text-faint">in your life on your timeline</div>
+              </p>
+              <p>
+              <img src="images/findmore.png" class="main-panel1-img" />
+              Find more
+              <div class="home-main-panel1-text-faint">of what you're looking for</div>
+              </p>
+            </div>
+      </div>
+      <div id="main-panel2" class="main-panel2-class">
+        <p id="main-panel2-heading1">Sign Up</p>
+			  <p id="main-panel2-heading2">It's free and always will be.</p>
+			  <form id="signUpForm">
+				<input placeholder="First Name" type="text" id="nameInput" name="firstName" class="main-panel2-text-input" />
+				<input placeholder="Last Name" type="text" id="nameInput" name="lastName" class="main-panel2-text-input" /> <br>
+				<input placeholder="Mobile number or email" type="text" id="emailInput" class="main-panel2-text-input" /><br>
+				<input placeholder="New Password" type="password" id="passwordInput" class="main-panel2-text-input" /><br>
+        <p>Birthday</p>
+        <input type="date" id="dateInput" />
+        <a href=# class="main-panel2-moreoptions">Why do I have to provide my birthday?</a><br><br>
+				<input type="radio" id="sexInputRadio" name="sexInput" value="female" />Female
+				<input type="radio" id="sexInputRadio" name="sexInput" value="male" />Male
+        <br><br>
+				<p id="main-panel2-fineprint">By clicking Create account you agree to our <a href=#>Terms</a> and that
+				you have read our...</p>
+				<input type="submit" class="big-button" value="Create Account" />
+				<br><br><hr><br><br>
+				<p class="main-panel2-moreoptions"><a href=#>Create a Page</a> for a celebrity, band or business.</p>
+			  </form>
+      </div>
+		</div>
+		<div class="home-footer">
+				<nav id="home-footer-languages" class="home-footer-languages">
+            <a href=#>English (UK)<a>
+            <a href=#>English (US)<a>
+            <a href=#>Francais<a>
+        </nav>
+        <hr>
+        <nav id="home-footer-index" class="home-footer-index">
+            <a href=#>Sign Up<a>
+            <a href=#>Log In<a>
+            <a href=#>Messenger<a>
+        </nav>
+        <p>Copyright info 2017</p>
+		</div>
+	</body>
+</html>

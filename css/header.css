@@ -1,0 +1,65 @@
+body{
+}
+.home-header{
+	width:100%;
+	height:75px;
+	position:absolute;
+	background:#3b5998;
+	top:0;
+	left:0;
+	color:white;
+  font-family: 'Bitter', serif;
+  font-size:12px;
+  /*-webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, .25);*/
+}
+#fbIcon{
+	left:200px;
+	height:60px;
+	width:200px;
+	top:5px;
+}
+#login{
+	left:800px;
+	height:30px;
+	width:500px;
+	top:0px;
+}
+#loginId{
+	left:50px;
+	height:15px;
+	width:150px;
+	top:0px;
+}
+#loginPassword{
+	left:200px;
+	height:15px;
+	width:150px;
+	top:0px;
+}
+#loginForgotPassword{
+	font-size:8px;
+  left:0px;
+  height:10px;
+  width:100px;
+  top:55px;
+}
+#loginSubmit{
+	left:350px;
+	height:30px;
+	width:180px;
+	top:35px;
+  cursor:pointer;
+}
+/*
+.submit1{
+	left:1130px;
+	top:35px;
+	background:#5b7bc0;
+	color:white;
+	position:fixed;
+	z-index:20;
+	height:22px;
+	width:50px;
+	cursor:pointer;
+}
+*/
